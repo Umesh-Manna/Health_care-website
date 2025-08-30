@@ -26,7 +26,7 @@ body {
   align-items: center;
   /* length properties */
   height: 100%;
-  width: 80%;
+  width: 90%;
 }
 
 header {
@@ -61,4 +61,20 @@ nav > ul {
   justify-content: space-evenly;
   /* length properties */
   width: 100%;
+}
+
+article {
+    /* designing properties */
+    background-color: rgba(255, 0, 0, 0.161);
+    /* length properties */
+    width: 100%;
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+}
+
+article section {
+    display: flex;
 }
