@@ -5,48 +5,38 @@
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* specific properties */
 
-html {
-    /* flex properties */
-    display: flex;
-    justify-content: center;
-
-    /* dis */
-}
-
 body {
   /* designing properties */
+  margin: auto;
   /* flex properties */
   display: flex;
   flex-direction: column;
-  align-items: center;
   /* length properties */
-  height: 100%;
-  width: 90%;
+  width: 80vw;
 }
 
 header {
   /* design properties */
   background-color: red;
   /* length properties */
-  height: 100px;
+  height: 20vh;
   width: 100%;
   /* CSS Box Model properties */
 }
 
 header > ul {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 nav {
   /* length properties */
-  height: 100px;
+  height: 10vh;
   width: 100%;
   /* flex properties */
   display: flex;
@@ -64,17 +54,46 @@ nav > ul {
 }
 
 article {
-    /* designing properties */
-    background-color: rgba(255, 0, 0, 0.161);
-    /* length properties */
-    width: 100%;
+  /* designing properties */
+  background-color: rgba(255, 0, 0, 0.161);
+  /* length properties */
+  width: 100%;
 }
 
 article img {
-    height: 200px;
-    width: 200px;
+  /* length properties */
+  height: 100%;
+  width: 100%;
 }
 
 article section {
-    display: flex;
+  /* flex properties */
+  display: flex;
+}
+
+article > section > div > h2 {
+  /* designing properties */
+  font-weight: 100;
+  font-size: 1em;
+}
+
+article > section > div dt {
+  /* designing properties */
+  font-weight: 600;
+  font-size: 2em
+}
+
+main {
+  /* designing properties */
+  background-color: red;
+  /* min-height: fit-content; */
+  /* max-height: 100px */;
+
+  display: flex;
+  
+}
+main div {
+  border: 2px solid black;
+  height: 33%;
+  
 }
