@@ -1,0 +1,53 @@
+/* general properties */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* specific properties */
+
+body {
+  /* designing properties */
+  margin: auto;
+  /* flex properties */
+  display: flex;
+  flex-direction: column;
+  /* length properties */
+  width: 80vw;
+}
+
+header {
+  /* design properties */
+  background-color: red;
+  /* length properties */
+  height: 20vh;
+  width: 100%;
+  /* CSS Box Model properties */
+}
+
+header > ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  /* length properties */
+  height: 10vh;
+  width: 100%;
+  /* flex properties */
+  display: flex;
+  justify-content: space-around;
+}
+
+nav > ul {
+  /* designing properties */
+  background-color: aqua;
+  /* flex properties */
+  display: flex;
+  justify-content: space-evenly;
+  /* length properties */
+  width: 100%;
