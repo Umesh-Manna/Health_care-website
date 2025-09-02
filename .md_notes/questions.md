@@ -56,3 +56,19 @@
 		
 		Flexbox: for one dimensional layouts
 		Grid: for two dimensional layouts.
+		
+- is it possible to use span tag, for formatting instead of relying on flex property?
+		nah, just use flex or grid for formatting for most cases, except ig 
+
+- What are the best naming practices of class and id? 
+		1. Using naming conventions like **BEM** and **SCSS**.
+		2. Use **--body** for paragraphs
+		3. Also use simple **search** function in VScode to quickly find the tags.
+		
+- What is **global stylesheet**?
+
+- Why do people say to never use ids?
+		Always try to use class and element selectors of CSS styling
+		And ids for Javascript
+		
+- H

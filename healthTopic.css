@@ -55,27 +55,69 @@ nav > ul {
 
 article {
   /* designing properties */
-  border: 2px solid black; 
+  border: 2px solid black;
   /* display properties */
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
 article .item {
+  /* designing properties */
   border: 2px solid blue;
 }
 
 article .item-3 {
+  /* display properites */
   grid-column: 1/3;
 }
 
 article .item-5 {
+  /* display properties */
   grid-column: 1/3;
 }
 
 article #alphabet-navbar > ul {
+  /* display properties */
   display: flex;
+  /* designing properties */
   gap: 2px;
 }
 
+/* using BEM from here onwards */
+
+/* ============================================ */
+/* section */
+
+.content {
+  /* designing properties */
+  border: 2px solid black;
+  /* display properties */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content--items {
+  border: 2px solid red;
+}
+
+.content--location {
+  grid-row: 1/5;
+}
+
+.content--disorder {
+  grid-row: 1/ 3;
+}
+
+.content--diagnosis {
+  grid-row: 3/5;
+}
+
+.content--demographic {
+  grid-row: 1/2;
+}
+
+.content--healthAndWellness {
+  grid-row: 2/5;
+}
