@@ -24,4 +24,10 @@
 - when setting height or width of the element, avoid using pixels as much as possible. 
 - Don't add height to <body>. This will interfere with the size properties of the child elements if the total height of them is more than the body tag
 - Using **max:height** and **min:height**
+- We can auto adjust height of the container to fit the elements using **height: fit-content**
+- Using **DEM** naming convention to name the classes
+- Use **id** only for Javascript
+- Using combinations **display: grid** and **display: flex** for layouts
+		{and also when not bothering too much with the layout}
 - 
+		

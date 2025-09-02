@@ -63,7 +63,7 @@
 - What are the best naming practices of class and id? 
 		1. Using naming conventions like **BEM** and **SCSS**.
 		2. Use **--body** for paragraphs
-		3. Also use simple **search** function in VScode to quickly find the tags.
+		3. Also use simple **search** function in VScode to quickly find the tag
 		
 - What is **global stylesheet**?
 
@@ -71,4 +71,15 @@
 		Always try to use class and element selectors of CSS styling
 		And ids for Javascript
 		
-- H
+- How to make cell smaller in **display:grid**
+		One way is to use **display:flex** property. 
+		
+- How to add CSS to button, to make them look more beautiful
+
+- How to make it so that, when clicking the nav it opens another website?
+		currenlty using simple **a** tag, but later use js and it's frameworks
+		
+- what if i am creating a website with multiple webpages, and i copy paste header and nav section in all of them. But later if i want to change the contents of header and nav, do i have to manually go and edit each and every file or is there a shorter way
+		best way to manage this issue is by using Javascript's **fetch()** function. (For now just copy the code from Chatgpt, since i do not know how to use javascript yet.)
+		
+- How Do i create branches, code in it accept or reject the branches using Git and Github.
