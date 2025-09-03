@@ -83,3 +83,10 @@
 		best way to manage this issue is by using Javascript's **fetch()** function. (For now just copy the code from Chatgpt, since i do not know how to use javascript yet.)
 		
 - How Do i create branches, code in it accept or reject the branches using Git and Github.
+		Using git checkout command
+		
+- how to plannout the design of the website using **Figma**?
+
+- What does it actually mean to read docs? 
+
+- How to use Tailwind CSS. 

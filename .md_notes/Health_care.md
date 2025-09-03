@@ -24,4 +24,3 @@
 
 - the <header> and <nav> are the same, so just copy paste should work i think.
 - **page-title** div, should contain the header and the share icons. 
-- s
