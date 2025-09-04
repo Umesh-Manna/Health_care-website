@@ -52,3 +52,77 @@ nav > ul {
   /* length properties */
   width: 100%;
 }
+
+/* section.title */
+
+.title {
+  /* display properties */
+  display: flex;
+  justify-content: space-between;
+  /* design properties */
+  
+  /* box-model properties*/
+  margin-top: 2em;
+  
+}
+
+.title--header {
+  /* display properties */
+  flex: 1 0 auto;
+}
+
+.title--icons{
+  /* display properties */
+  place-items: center;
+  align-content: center; /*I have absolutely no idea, how tf this worked.*/
+  flex: 1 0 auto;
+  /* designing properties */
+  font-size: larger;
+
+}
+
+.title--icons > ul {
+  /* display properties */
+  display: flex;
+
+}
+
+.content {
+  
+}
+
+.content--intro-p {
+  /* design properties*/
+  padding-top: 20px;
+}
+
+.content--header {
+  /* box-model */
+  padding: 10px 0px;
+}
+
+.content--search-list > ul{
+  /* display properties */
+  display: flex;
+  flex-wrap: wrap;
+  /* design properties */
+  background-color: rgb(185 237 237);
+  border-radius: 10px;
+  gap: 10px;
+  font-size: 1.5em;
+  /* box-model properties */
+  padding: 20px 10px;
+}
+
+.feedback {
+  /* design properties */
+  border: 2px solid black;
+}
+
+.feedback--body {
+
+}
+
+.feedback--btn {
+
+}

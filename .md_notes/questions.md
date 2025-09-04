@@ -88,5 +88,19 @@
 - how to plannout the design of the website using **Figma**?
 
 - What does it actually mean to read docs? 
+		reading official docs v/s tutorials for more in depth understanding
+		It is also important to be aware about when to stop and when to move on from a topic
 
 - How to use Tailwind CSS. 
+
+- What is the difference between static and dynamic websites
+
+- how to deal with the wrapping issue when i decrease the size of the webpage using inspect
+		first thing to take note of is that, the smalled screen size i am going to develop a website is for phone. What i have been doing as of now is making the width of the viewport way to small.
+		
+		Even if the webpage happens to look weird even for phone level of screen size, then there is **media querry** property for that
+		I have been just wasting my time worrying about non existent issue. 
+		
+- The difference between **item** and **content**. 
+
+- How to use 

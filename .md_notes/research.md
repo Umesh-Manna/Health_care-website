@@ -29,5 +29,13 @@
 - Use **id** only for Javascript
 - Using combinations **display: grid** and **display: flex** for layouts
 		{and also when not bothering too much with the layout}
+- Using **place content** center, to make the text at the center. 
+
+- learning the **flex-box** property the rightway using **MDN docs**.
+		- three main properties of **flex** is 
+		 1. **grow**, **shrink** and **basis**
+		 2. **basis** : basically width property but actually flexible
+		 3. use short-hand properties
+
 - 
 		
